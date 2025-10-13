@@ -70,7 +70,7 @@ public class UpgradedSalaryPay {
         JOptionPane.showMessageDialog(null, output, "Employee Salary Pay",JOptionPane.INFORMATION_MESSAGE);
         
         System.out.println("Try Again? Please Enter an Input: [y/n]");
-        userInput = scanner.nextLine();    
+        userInput = scanner.next();    
             } while(userInput.equalsIgnoreCase("y"));
     }
 }     
