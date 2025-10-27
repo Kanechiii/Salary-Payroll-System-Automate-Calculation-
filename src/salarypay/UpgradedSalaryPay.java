@@ -51,7 +51,7 @@ public class UpgradedSalaryPay {
         String td = formatter.format(totalDeduction);
         String np = formatter.format(netPay);
         
-        String output = "| - - - - - - - INPUT VALUE: - - - - - - - |\n" + 
+        String output = "| - - - - - - - INPUT VALUE - - - - - - - |\n" + 
                         "Rendered Hour: " + rh + " Hour" + "\n" +
                         "Rate per Hour: " + rph + " PHP" + "\n" +
                         "Undertime Hour: " + uh + " Hour" + "\n" +
@@ -59,7 +59,7 @@ public class UpgradedSalaryPay {
                         "Overtime Hour: " + oh + " Hour" + "\n" +
                         "Overtime Hour Rate: " + ohr + " PHP" + "\n" +
                         "Other Deduction: " + od + " Hour" + "\n\n" + 
-                        "| - - - - - - - - - RESULT:- - - - - - - - - |\n" +
+                        "| - - - - - - - - - RESULT - - - - - - - - - |\n" +
                         "Total Rendered Hour are: " + trh + " Hour" + "\n" +
                         "Total Rate per Hour are: " + trph + " PHP" + "\n" +
                         "Ovetime Pay will be: " + op + " PHP" + "\n" +
